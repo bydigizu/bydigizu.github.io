@@ -4,33 +4,22 @@
 
 ## Локальная разработка
 
-You need Ruby and gem before starting, then:
+Для началом нужно убедиться в том что установлен Ruby и gem, затем:
 
 ```bash
-# install bundler
+# установить бандлер
 gem install bundler
 
-# clone the project
+# клонировать проект
 git clone https://github.com/aksakalli/jekyll-doc-theme.git
 cd jekyll-doc-theme
 
-# install dependencies
+# установить зависимости
 bundle install
 
-# run jekyll with dependencies
+# запустить jekyll с зависимостями
 bundle exec jekyll serve
 ```
-
-### Theme Assets
-
-As of the move to support [Github Pages](https://pages.github.com/) a number of files have been relocated to the `/asset` folder.
-- css/
-- fonts/
-- img/
-- js/
-- 404.html
-- allposts.html
-- search.json
 
 ## Docker
 
